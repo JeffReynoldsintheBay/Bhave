@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+ "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+<topic id="installing" xml:lang="en-us">
+  <title>Hierarchical edge bundling</title>
+  <shortdesc>Hierarchical edge bundling enables you to explore the relationships between classes and
+    discover dependencies without having to navigate hierachies.</shortdesc>
+  <body>
+    <p>The elements of the library are visualized in a special diagram called a dendogram.  Adjacent
+      classes are grouped together, and the lines between classes show outgoing classes in green and
+      incoming classes in red.</p>
+    <fig id="fig_j32_fdj_tnb">
+      <title>Behavox hierarchical edge bundling tool</title>
+      <image href="../tasks/Behavoxtool.png" id="image_k32_fdj_tnb" scale="50">
+        <alt>Dendogram of the edgebundling tool showing the relationships between classes and the
+          tension cortrol.</alt>
+      </image>
+    </fig>
+  </body>
+</topic>
