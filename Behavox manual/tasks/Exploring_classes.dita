@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN"
+ "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="installwebserver" xml:lang="en-us">
+<title>Exploring class relationships</title>
+<shortdesc>Class relationships and dependencies are displayed with the Hierarchical Edge Bundling
+    Tool.</shortdesc>
+<taskbody>
+  <steps id="steps_fnf_mkj_tnb">
+   <stepsection>
+    <note>Several features make the tool easier to use:<ul id="ul_a15_rkj_tnb">
+            <li>Click and hold on the disk to spin it.   This feature allows you to read class names
+              upright.</li>
+            <li>Hold <uicontrol>Ctrl </uicontrol>and scroll the mouse wheel to adjust the zoom level
+              of your browser.</li>
+            <li>Use the tension slider to declutter the disk and make it easier to follow
+              dependencies.</li>
+          </ul></note>
+   </stepsection>
+   <step>
+        <cmd>Select the class you want to examine. </cmd>
+        <info>Mouse over the class of interest. The class name will turn blue to indicate it is
+          under observation.</info>
+        <stepresult>The tool displays outgoing classes in green and incoming classes in
+          red.</stepresult>
+      </step>
+  </steps>
+ </taskbody>
+</task>

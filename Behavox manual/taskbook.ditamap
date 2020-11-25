@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN"
+ "http://docs.oasis-open.org/dita/v1.1/OS/dtd/bookmap.dtd">
+<!-- (c) Copyright IBM Corp. 2004, 2007 All Rights Reserved. -->
+<bookmap id="taskbook">
+    <booktitle>
+        <mainbooktitle>Hierarchical Edge Bundling Tool</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author>Jeff Reynolds</author>
+        <bookid>
+            <isbn/>
+            <booknumber/>
+            <maintainer>
+                <organization>Behavox</organization>
+                <person/>
+            </maintainer>
+        </bookid>
+        <bookrights>
+            <copyrfirst>
+                <year>2020</year>
+            </copyrfirst>
+            <copyrlast>
+                <year>2020</year>
+            </copyrlast>
+            <bookowner>
+                <organization>Behavox</organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="topics/About_us.dita">
+        <topicmeta>
+            <data name="wh-tile">
+                <data name="hide" value="yes"/>
+            </data>
+        </topicmeta>
+    </chapter>
+    <chapter href="topics/Hierarchical_edge_bundling.dita">
+        <topicref href="tasks/Opening_the_tool.dita"/>
+        <topicref href="tasks/Exploring_classes.dita"/>
+        <topicref href="tasks/Closing_the_tool.dita"/>
+    </chapter>
+    <backmatter>
+        <booklists><!--
+        <topicref href="taskbook/otherbooks.dita" navtitle="Related Books"/>
+        <topicref href="taskbook/trademarks.dita" navtitle="Trademarks"/>
+        <topicref href="taskbook/Glossary.dita navtitle="Glossary"/>
+      --></booklists>
+    </backmatter>
+</bookmap>

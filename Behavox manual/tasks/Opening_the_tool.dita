@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN"
+ "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="installstorage" xml:lang="en-us">
+<title>Opening the tool</title>
+<shortdesc>You can open the tool through any web browser.</shortdesc>
+<taskbody>
+  <steps id="steps_kb2_l2j_tnb">
+   <step>
+    <cmd>Click <xref href="http://mbostock.github.io/d3/talk/20111116/bundle.html"
+      class="- topic/xref " scope="external"/></cmd>
+   </step>
+  </steps>
+</taskbody>
+</task>

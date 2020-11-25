@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+ "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+<topic id="installing" xml:lang="en-us">
+  <title>Hierarchical edge bundling</title>
+  <shortdesc>Hierarchical edge bundling enables you to explore the relationships between software
+    classes and discover dependencies without having to navigate confusing and deeply nested
+    hierarchies.</shortdesc>
+  <body>
+    <section id="section_smt_1cw_tnb">
+      <title>The problem</title>
+      <p>If you have ever looked for a file on your computer, you know that the information is
+        stored in directories.  Files and directories are logically grouped in meaningful way that
+        impose an order and structure.  As more information is added, more directories are used to
+        ensure groups are conveniently sized and categorized.  Eventually, directories themselves
+        have to be sorted and grouped together to until you end up with a file system that consists
+        of nested directories in a hierarchy. The most common way to visualize a hierarchy of
+        directories is a tree structure.</p>
+      <fig id="fig_bzw_ggx_tnb">
+        <image id="image_q42_hgx_tnb" href="../concepts/tree.png"/>
+      </fig>
+      <p>The utility of this model begins to break down as the structure accommodates more
+        information. It is difficult to discern relationships between files as the file paths become
+        increasingly layered and divergent.</p>
+      <p>Moving this scenario to an object-oriented software development environment, or library,
+        makes the problem even more complicated. Discrete pieces of reusable code can be sorted and
+        organized hierarchically,  but there are additional adjacency relations and dependencies
+        between nodes, classes and objects.</p>
+    </section>
+    <section id="section_wlf_2cw_tnb">
+      <title>The solution</title>
+      <p>The elements of the software library are visualized in a special diagram called a
+        dendogram. Adjacent classes are grouped together, and dependencies between the children of a
+        node are readily apparent.  When a dependency exists between classes that inhabit different
+        nodes, a bezier curve displays the relationship.  The curve connects dependent classes and
+        details where adjacency occurs in the parent nodes.  This method solves the problems of
+        accommodating adjacency between a large number of classes (by bundling them on the edge) and
+        visualizing adjacency between parent nodes.</p>
+      <fig id="fig_j32_fdj_tnb">
+        <title>Behavox hierarchical edge bundling tool</title>
+        <image href="../tasks/Behavoxtool.png" id="image_k32_fdj_tnb" scale="50">
+          <alt>Dendogram of the edge bundling tool showing the relationships between classes and the
+            tension control.</alt>
+        </image>
+      </fig>
+    </section>
+  </body>
+</topic>
